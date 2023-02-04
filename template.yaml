@@ -137,7 +137,7 @@ Resources:
       Port: 443
       Protocol: TCP
       HealthCheckPort: traffic-port
-      HealthCheckProtocol: HTTP
+      HealthCheckProtocol: HTTPS
       HealthCheckPath: "/index.html"
       TargetType: alb
       Targets:
